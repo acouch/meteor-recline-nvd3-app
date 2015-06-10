@@ -1,0 +1,9 @@
+{
+  "name": "meteor.nvd3.recline.app",
+  "version": "0.1.0",
+  "dependencies": {
+    "nvd3_visualization_app": "acouch/nvd3_visualization_app.git#gh-pages",
+    "recline.view.nvd3.js": "acouch/recline.view.nvd3.js",
+    "recline": "acouch/recline"
+  }
+}
