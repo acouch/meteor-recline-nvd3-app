@@ -1,6 +1,7 @@
 if (Meteor.isClient) {
+  var recline = this.recline;
 
-  Template.recline-nvd3-app.onRendered(function() {
+  Template.reclineNvd3App.onRendered(function() {
     var state = new recline.Model.ObjectState();
     var sharedObject = {state: state};
 
@@ -19,10 +20,11 @@ if (Meteor.isClient) {
 
     window.msv = msv;
     window.sharedObject = sharedObject;
+      
   });
 
 
-  Template.recline-nvd3-app.events({
+  Template.reclineNvd3App.events({
     'click button': function () {
       // increment the counter when button is clicked
     }
