@@ -1,0 +1,24 @@
+{
+  "name": "test-bow",
+  "version": "0.0.1",
+  "authors": [
+    "acouch <acinternets@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reclinejs": "https://github.com/acouch/recline.git",
+    "recline.view.nvd3": "https://github.com/acouch/recline.view.nvd3.js.git",
+    "nvd3_visualization_app": "https://github.com/acouch/nvd3_visualization_app.git#gh-pages"
+  }
+}

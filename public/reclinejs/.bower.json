@@ -1,0 +1,13 @@
+{
+  "name": "reclinejs",
+  "homepage": "https://github.com/acouch/recline",
+  "_release": "7fc65d4484",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7fc65d44842228e0109b16ee0c9c21760574474d"
+  },
+  "_source": "https://github.com/acouch/recline.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/acouch/recline.git"
+}
