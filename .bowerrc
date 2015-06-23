@@ -1,3 +1,6 @@
 {
   "directory" : "public"
+   "scripts": {
+      "postinstall": "rm -rf public/nvd3_visualization_app/public"
+  } 
 }

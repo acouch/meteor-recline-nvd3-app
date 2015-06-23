@@ -3063,7 +3063,7 @@ my.setHashQueryString = function(queryParams) {
 this.recline = this.recline || {};
 this.recline.View = this.recline.View || {};
 
-(function($, my) {
+(function($, my, recline) {
   "use strict";
 
 // ## SlickGrid Dataset View
@@ -3516,7 +3516,7 @@ my.GridControl= Backbone.View.extend({
  }
 });
 
-})(jQuery, this.recline.View);
+})(jQuery, this.recline.View, this.recline);
 
 /*
 * Context menu for the column picker, adapted from

@@ -30,7 +30,7 @@
                   '{{/xDataTypes}}' +
                 '</div>' +
                 '<div id="controls">' +
-                  '<div id="prev" class="btn btn-default pull-left">Back</div>' +
+                  '<div id="prev" class="step-{{step}} btn btn-default pull-left">Back</div>' +
                   '<div id="next" class="btn btn-primary pull-right">Next</div>' +
                 '</div>' +
               '</div>',

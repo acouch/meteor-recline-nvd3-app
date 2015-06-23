@@ -14,7 +14,7 @@
                 '</select>' +
               '</div>' +
               '<div id="controls">' +
-                '<div id="next" class="btn btn-primary pull-right">Next</div>' +
+                '<div id="next" class="step-{{step}} btn btn-primary pull-right">Next</div>' +
               '</div>',
     initialize: function(options){
       var self = this;
