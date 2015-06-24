@@ -7,7 +7,8 @@
               '<div id="step"></div>',
     events:{
       'click #next': 'nextStep',
-      'click #prev': 'prevStep'
+      'click #prev': 'prevStep',
+      'click #save': 'saveStep'
     },
     initialize: function(options){
       var self = this;
@@ -39,6 +40,11 @@
     getStep: function(index){
       var self = this;
       return self.steps[index];
+    },
+    saveStep: function(){
+      var self = this;
+      console.log('sdf');
+      self.currentView.updateState(self.state, toNext);
     },
     nextStep: function(){
       var self = this;

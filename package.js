@@ -41,6 +41,7 @@ Package.onUse(function(api) {
   api.addFiles('public/csv.js/csv.js', 'client', {bare: true});
   api.addFiles('util/recline-nvd3-app-csv.js', 'client', {bare: true});
   api.addFiles('public/recline.backend.gdocs/backend.gdocs.js', 'client', {bare: true});
+  api.addFiles('util/recline-nvd3-app-gdocs.js', 'client', {bare: true});
   api.addFiles('public/d3/d3.js', 'client', {bare: true});
   api.addFiles('public/nvd3/build/nv.d3.js', 'client', {bare: true});
   api.addFiles('public/recline.view.nvd3/dist/recline.view.nvd3.js', 'client', {bare: true});
@@ -53,6 +54,7 @@ Package.onUse(function(api) {
   api.addFiles('public/nvd3_visualization_app/src/DataOptionsView.js', 'client', {bare: true});
   api.addFiles('public/nvd3_visualization_app/src/ChooseChartView.js', 'client', {bare: true});
   api.addFiles('public/nvd3_visualization_app/src/ChartOptionsView.js', 'client', {bare: true});
+  api.addFiles('public/nvd3_visualization_app/src/ChartOptionsViewSave.js', 'client', {bare: true});
   api.addFiles('public/nvd3_visualization_app/src/PublishView.js', 'client', {bare: true});
 
   api.addFiles('client/templates/begin.html', 'client', {bare: true});

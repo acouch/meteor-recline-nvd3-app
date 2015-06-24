@@ -170,4 +170,3 @@ if (typeof module !== 'undefined' && module != null && typeof require !== 'undef
     };
   };
 }(recline.Backend.GDocs));
-
